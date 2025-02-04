@@ -1,19 +1,16 @@
 # BERT Text Checker
-
-This project utilizes a BERT mini model to check text extracted from PDF files for the presence of the word "adventure". 
-
-## Project Structure
+## Structure
 
 ```
 bert-text-checker
 ├── src
-│   ├── main.py          # Entry point of the application
-│   ├── bert_model.py    # Contains the BERT model class
-│   ├── pdf_reader.py     # Handles reading PDF files
-│   └── utils.py         # Utility functions for text processing
-├── requirements.txt     # Project dependencies
-├── README.md            # Project documentation
-└── .gitignore           # Files to ignore in Git
+│   ├── main.py         
+│   ├── bert_model.py   
+│   ├── pdf_reader.py     
+│   └── utils.py        
+├── requirements.txt    
+├── README.md            
+└── .gitignore          
 ```
 
 ## Setup Instructions
